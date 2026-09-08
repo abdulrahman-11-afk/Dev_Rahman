@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Abdulrahman — frontend developer building responsive, modern and interactive web experiences.">
+    <meta name="theme-color" content="#050507">
+    <title>Abdulrahman | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="./images/favicoloo.png">
+</head>
+
+<body>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <header class="navbar">
+        <a href="#home" class="logo" aria-label="Abdulrahman home">
+            <img src="./images/rahman_logo-removebg-preview.png" alt="Rahman Dev logo">
+        </a>
+
+        <nav class="nav-links" id="nav-links" aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#websites">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="./Abdulrahman-CV.pdf" class="nav-button cv-button" download>Download CV <span>↓</span></a>
+
+        <a href="https://wa.me/2349133048790" class="nav-button magnetic">Let's Talk <span>↗</span></a>
+
+        <button class="menu-btn" type="button" aria-label="Open navigation menu" aria-controls="nav-links"
+            aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content reveal">
+                <div class="status">
+                    <span class="status-dot"></span>
+                    Available for projects
+                </div>
+
+                <p class="hero-intro">HEY, I'M <span>ABDULRAHMAN</span> 👋</p>
+
+                <h1>
+                    I BUILD
+                    <span class="gradient-text">DIGITAL</span>
+                    <br>
+                    EXPERIENCES.
+                </h1>
+
+                <p class="hero-description">
+                    Frontend developer focused on building clean, responsive and interactive
+                    websites that look great, feel smooth and work well on every screen.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#websites" class="primary-btn magnetic">View My Work <span>↗</span></a>
+                    <a href="https://wa.me/2349133048790" class="secondary-btn magnetic">Let's Talk</a>
+                    <a href="./Abdulrahman-CV.pdf" class="secondary-btn cv-hero-btn" download>Download CV ↓</a>
+                </div>
+
+                <div class="hero-meta">
+                    <span><i></i> Web Development</span>
+                    <span><i></i> Frontend Development</span>
+                    <span><i></i> Modern Web Technologies</span>
+                </div>
+            </div>
+
+            <div class="terminal-wrapper reveal-card">
+                <div class="terminal">
+                    <div class="terminal-top">
+                        <div class="terminal-dots" aria-hidden="true">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <p>~/abdulrahman</p>
+                    </div>
+
+                    <div class="terminal-body">
+                        <div class="terminal-output" id="terminal-output" aria-live="polite"></div>
+                        <div class="terminal-input">
+                            <span class="terminal-green">$</span>
+                            <span id="terminal-cursor">_</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section section reveal" id="about">
+            <div class="section-heading">
+                <p class="section-label">// WHO I AM</p>
+                <h2>I BUILD. <span>I LEARN.</span><br>I KEEP <span>EVOLVING.</span></h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text">
+                    <p class="about-big">
+                        I'm <span>Abdulrahman</span>, a frontend developer who enjoys turning
+                        ideas into polished and useful digital experiences.
+                    </p>
+                    <p>
+                        I enjoy building modern websites, creating responsive interfaces and
+                        turning designs and ideas into functional web experiences.
+                    </p>
+                    <p>
+                        My focus is frontend development, with an emphasis on clean UI,
+                        responsiveness, accessibility and smooth interactions.
+                    </p>
+                    <a href="#contact" class="about-link">Let's connect <span>↗</span></a>
+                </div>
+
+                <div class="about-cards">
+                    <article class="info-card reveal-card">
+                        <span class="card-number">01</span>
+                        <div class="card-icon">⌘</div>
+                        <h3>Web Development</h3>
+                        <p>Responsive interfaces and modern web experiences.</p>
+                    </article>
+
+                    <article class="info-card reveal-card">
+                        <span class="card-number">02</span>
+                        <div class="card-icon">◈</div>
+                        <h3>Responsive Design</h3>
+                        <p>Interfaces that work smoothly across phones, tablets and desktops.</p>
+                    </article>
+
+                    <article class="info-card reveal-card">
+                        <span class="card-number">03</span>
+                        <div class="card-icon">JS</div>
+                        <h3>Interactive UI</h3>
+                        <p>Interactive experiences powered by clean, practical JavaScript.</p>
+                    </article>
+
+                    <article class="info-card reveal-card">
+                        <span class="card-number">04</span>
+                        <div class="card-icon">+</div>
+                        <h3>Always Learning</h3>
+                        <p>Constantly improving my frontend skills and exploring better ways to build.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills-section section" id="skills">
+            <div class="section-heading reveal">
+                <p class="section-label">// MY TOOLKIT</p>
+                <h2>TECHNOLOGIES <span>I WORK WITH.</span></h2>
+                <p class="section-description">
+                    A growing toolkit I use to turn ideas into working products.
+                </p>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card reveal-card">
+                    <div class="skill-top"><span class="skill-icon">HTML</span><span class="skill-number">01</span>
+                    </div>
+                    <h3>HTML</h3>
+                    <p>Semantic, accessible and well-structured web pages.</p>
+                    <div class="skill-tags"><span>Semantic HTML</span><span>Accessibility</span><span>Structure</span>
+                    </div>
+                </article>
+
+                <article class="skill-card reveal-card">
+                    <div class="skill-top"><span class="skill-icon">CSS</span><span class="skill-number">02</span></div>
+                    <h3>CSS</h3>
+                    <p>Responsive layouts, modern styling, transitions and animations.</p>
+                    <div class="skill-tags"><span>Responsive UI</span><span>Animations</span><span>Layouts</span></div>
+                </article>
+
+                <article class="skill-card reveal-card">
+                    <div class="skill-top"><span class="skill-icon">JS</span><span class="skill-number">03</span></div>
+                    <h3>JavaScript</h3>
+                    <p>Interactive interfaces, DOM manipulation and frontend logic.</p>
+                    <div class="skill-tags"><span>DOM</span><span>Interactions</span><span>Logic</span></div>
+                </article>
+
+                <article class="skill-card reveal-card">
+                    <div class="skill-top"><span class="skill-icon">TW</span><span class="skill-number">04</span></div>
+                    <h3>Tailwind CSS</h3>
+                    <p>Fast, consistent and responsive UI development with utility classes.</p>
+                    <div class="skill-tags"><span>Utility Classes</span><span>Responsive</span><span>UI</span></div>
+                </article>
+
+                <article class="skill-card reveal-card">
+                    <div class="skill-top"><span class="skill-icon">REACT</span><span class="skill-number">05</span>
+                    </div>
+                    <h3>React</h3>
+                    <p>Reusable components and dynamic frontend applications.</p>
+                    <div class="skill-tags"><span>Components</span><span>Reusable UI</span><span>Frontend Apps</span>
+                    </div>
+                </article>
+
+                <article class="skill-card reveal-card">
+                    <div class="skill-top"><span class="skill-icon">NEXT</span><span class="skill-number">06</span>
+                    </div>
+                    <h3>Next.js</h3>
+                    <p>Modern React applications and production-ready web experiences.</p>
+                    <div class="skill-tags"><span>React</span><span>Web Apps</span><span>Production</span></div>
+                </article>
+            </div>
+        </section>
+
+        <section class="websites-section section reveal" id="websites">
+
+            <div class="section-heading">
+                <span class="section-tag">
+                    <span class="tag-dot"></span> SELECTED PROJECTS
+                </span>
+
+                <h2>Things I've <span>Built.</span></h2>
+
+                <p>
+                    A selection of real projects I've designed and developed,
+                    from AI-powered study tools to modern web platforms.
+                </p>
+            </div>
+
+
+            <div class="projects-list">
+
+                <!-- PROJECT 01 -->
+                <article class="project-card reveal-card">
+
+                    <a class="project-preview" href="https://lernova-ai.vercel.app/" target="_blank"
+                        rel="noopener noreferrer" aria-label="Open Lernova AI live demo">
+                        <div class="preview-topbar">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <img src="./images/lernova-ai.png" alt="Lernova AI website preview" class="project-image"
+                            loading="lazy">
+
+                        <span class="project-overlay">
+                            View live project ↗
+                        </span>
+                    </a>
+
+
+                    <div class="project-info">
+
+                        <div class="project-heading-row">
+
+                            <div>
+                                <span class="project-index">
+                                    01 / AI EDUCATION
+                                </span>
+
+                                <h3>Lernova AI</h3>
+                            </div>
+
+                            <span class="project-status">
+                                LIVE
+                            </span>
+
+                        </div>
+
+
+                        <p>
+                            Lernova AI is an academic companion that turns a
+                            course outline into a personalized study plan and
+                            adapts it around what a student understands.
+                        </p>
+
+
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>AI</span>
+                        </div>
+
+
+                        <div class="project-links">
+
+                            <a href="https://lernova-ai.vercel.app/" target="_blank" rel="noopener noreferrer"
+                                class="project-link primary">
+                                Live Demo ↗
+                            </a>
+
+                            <a href="https://github.com/abdulrahman-11-afk/lernova-AI" target="_blank"
+                                rel="noopener noreferrer" class="project-link secondary">
+                                GitHub ↗
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PROJECT 02 -->
+                <article class="project-card reveal-card">
+
+                    <a class="project-preview" href="https://transitpro.vercel.app/" target="_blank"
+                        rel="noopener noreferrer" aria-label="Open TransitPro live demo">
+                        <div class="preview-topbar">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <img src="./images/transitpro.png" alt="TransitPro website preview" class="project-image"
+                            loading="lazy">
+
+                        <span class="project-overlay">
+                            View live project ↗
+                        </span>
+                    </a>
+
+
+                    <div class="project-info">
+
+                        <div class="project-heading-row">
+
+                            <div>
+                                <span class="project-index">
+                                    02 / TRANSPORT
+                                </span>
+
+                                <h3>TransitPro</h3>
+                            </div>
+
+                            <span class="project-status">
+                                LIVE
+                            </span>
+
+                        </div>
+
+
+                        <p>
+                            TransitPro is a modern transport booking platform
+                            focused on making travel fast, safe and affordable
+                            across states.
+                        </p>
+
+
+                        <div class="project-tags">
+                            <span>Next.js</span>
+                            <span>Tailwind CSS</span>
+                        </div>
+
+
+                        <div class="project-links">
+
+                            <a href="https://transitpro.vercel.app/" target="_blank" rel="noopener noreferrer"
+                                class="project-link primary">
+                                Live Demo ↗
+                            </a>
+
+                            <a href="https://github.com/abdulrahman-11-afk/transitpro" target="_blank"
+                                rel="noopener noreferrer" class="project-link secondary">
+                                GitHub ↗
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PROJECT 03 -->
+                <article class="project-card reveal-card">
+
+                    <a class="project-preview" href="https://thecklearn.vercel.app/" target="_blank"
+                        rel="noopener noreferrer" aria-label="Open TheckLearn Academy live demo">
+                        <div class="preview-topbar">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <img src="./images/thecklearn.png" alt="TheckLearn Academy website preview"
+                            class="project-image" loading="lazy">
+
+                        <span class="project-overlay">
+                            View live project ↗
+                        </span>
+                    </a>
+
+
+                    <div class="project-info">
+
+                        <div class="project-heading-row">
+
+                            <div>
+                                <span class="project-index">
+                                    03 / TECH EDUCATION
+                                </span>
+
+                                <h3>TheckLearn Academy</h3>
+                            </div>
+
+                            <span class="project-status private">
+                                PRIVATE CODE
+                            </span>
+
+                        </div>
+
+
+                        <p>
+                            TheckLearn Academy is a tech education platform
+                            focused on practical, industry-relevant skills,
+                            community support and flexible learning.
+                        </p>
+
+
+                        <div class="project-tags">
+                            <span>Next.js</span>
+                            <span>Tailwind CSS</span>
+                        </div>
+
+
+                        <div class="project-links">
+
+                            <a href="https://thecklearn.vercel.app/" target="_blank" rel="noopener noreferrer"
+                                class="project-link primary">
+                                Live Demo ↗
+                            </a>
+
+                            <span class="project-link secondary disabled">
+                                Source Code —
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <div class="websites-more">
+                <span>More projects coming soon</span>
+                <span class="more-line"></span>
+            </div>
+
+        </section>
+        <section class="contact-section section reveal" id="contact">
+
+            <div class="contact-grid">
+                <a href="mailto:abdulrahmanafolabi907@gmail.com" class="contact-card reveal-card">
+                    <div class="contact-icon">✉</div>
+                    <div>
+                        <span class="contact-label">EMAIL</span>
+                        <h3>abdulrahmanafolabi907@gmail.com</h3>
+                    </div>
+                    <span class="contact-arrow">↗</span>
+                </a>
+
+                <a href="https://github.com/abdulrahman-11-afk" target="_blank" rel="noopener noreferrer"
+                    class="contact-card reveal-card">
+                    <div class="contact-icon">GH</div>
+                    <div>
+                        <span class="contact-label">GITHUB</span>
+                        <h3>View my projects</h3>
+                    </div>
+                    <span class="contact-arrow">↗</span>
+                </a>
+                <a href="https://linkedin.com/in/afolabi-abdulrahman-85118542a/" target="_blank"
+                    rel="noopener noreferrer" class="contact-card reveal-card">
+                    <div class="contact-icon">LK</div>
+                    <div>
+                        <span class="contact-label">LinkedIn</span>
+                        <h3>Checkout My Linkedin Profile</h3>
+                    </div>
+                    <span class="contact-arrow">↗</span>
+                </a>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <a href="#home" class="logo footer-logo"><img src="./images/rahman_logo-removebg-preview.png"
+                    alt="Rahman Dev logo"></a>
+            <p>Building responsive digital experiences, one project at a time.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#websites">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <span>© <span id="year">2026</span> Abdulrahman. All rights reserved.</span>
+            <span>Built with HTML • CSS • JavaScript</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
