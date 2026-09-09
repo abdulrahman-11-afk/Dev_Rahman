@@ -152,6 +152,11 @@ button {
         background 0.3s ease;
 }
 
+.nav-buttons{
+    display: flex;
+    gap: 20px;
+}
+
 .nav-button {
     padding: 10px 16px;
     color: #050507;
